@@ -17,6 +17,9 @@
     <div id="title">
         <h1 class="content center">Personel File: Miguel Pimentel</h1>
     </div>
+    <div class="navigation content">
+        <?php include 'php/nav.php'; ?>
+    </div>
     <div lj-type="stage" class="container-fluid">
         <!-- Add a stage. -->
         <div lj-type="layer" lj-default-frame="achievements" lj-name="website" lj-no-url="true" id="website">
@@ -43,6 +46,14 @@
                                 <li>September, 2020</li>
                             </ul>
                             <li>Florida Academic Scholars</li>
+                            <ul>
+                                <li>September, 2020</li>
+                            </ul>
+                            <li>Associates in web development</li>
+                            <ul>
+                                <li>September, 2020</li>
+                            </ul>
+                            <li>Advanced Java Certificate</li>
                             <ul>
                                 <li>September, 2020</li>
                             </ul>
@@ -99,9 +110,11 @@
                     <div class="col-md">
                         <dl>
                             <dt>Receive My Bachelor's in Information Architecture</dt>
-                            <dd>I'm attending USF to get a BSAS: Information Studies: Information architecture</dd>
-                            <dt>Receive My Master's Certificate</dt>
-                            <dd>I hope to attend FSU to get a MS Certificate.</dd>
+                            <dd>I'm attending USF to get a BSAS: Information Studies: Information architecture in Spring, 2022</dd>
+                            <dt>Advance my skills</dt>
+                            <dd>I want to advance my skills in data analysis, human interfaces, and cloud computing.</dd>
+                            <dt>Project: Metanarativ</dt>
+                            <dd>I want to create novel ways for tabletop gamers to connect, meet up, and thrive.</dd>
                         </dl>
                     </div>
                 </div>
@@ -113,7 +126,7 @@
                 <div class="row">
                     <div class="col-md">
                         <ul>
-                            <li>My Email: pimentel611@gmail.com</li>
+                            <li>My Email: justo@aredpanic.com</li>
                             <li>My Phone: 727-225-2287</li>
                         </ul>
                     </div>
