@@ -16,8 +16,29 @@
                   <div class="col-md">
                     <p>For better or worse, you chose to:
                       <?php
-                        file_put_contents('decision.txt', $_GET['Decision']);
-                        echo($_GET['Decision']);
+                        $servername = $_ENV["server"];
+                        $username = $_ENV["user"];
+                        $password = $_ENV["pass"];
+                        
+                        $conn = new mysqli($servername, $username, $password, 'decision');
+                        
+                        if ($conn->connect_error) {
+                          die("Connection failed: " . $conn->connect_error);
+                        }
+                        
+                        $sql = "INSERT INTO decision (Decision) VALUES ('" . $_GET['Decision'] . "')";
+                        
+                        $conn->query($sql);
+                        
+                        $sql = "SELECT Decision FROM decision ORDER BY ID DESC LIMIT 1";
+                        
+                        $result = $conn->query($sql);
+                        
+                        while($row = $result -> fetch_assoc()){
+                            echo $row["Decision"];
+                        }
+
+                        $conn->close();
                       ?>
                     </p>
                     <p>This will be important in the future.</p>
