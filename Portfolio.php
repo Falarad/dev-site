@@ -24,13 +24,13 @@
                             <a class="nav-link" href="..#achievements">Achievements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="www.migueljpimentel.com#skills">Skills</a>
+                            <a class="nav-link" href="..#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="www.migueljpimentel.com#goals">Goals</a>
+                            <a class="nav-link" href="..#goals">Goals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="www.migueljpimentel.com#contact">Contact</a>
+                            <a class="nav-link" href="..#contact">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Portfolio</a>
